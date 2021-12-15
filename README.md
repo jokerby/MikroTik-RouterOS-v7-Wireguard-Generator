@@ -13,8 +13,11 @@ Simple script to auto adding new p2s vpn "account".
 
 ### Example
 :global address "10.100.200.3/32"
+
 :global username "john.smith"
+
 /system/script/wg
+
 
 After executing these commands a new user will be added to wireguard/peers and a corresponding file will appear in the Files, which can be imported into the client.
 
