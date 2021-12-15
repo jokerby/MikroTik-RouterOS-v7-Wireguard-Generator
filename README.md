@@ -7,15 +7,13 @@ Simple script to auto adding new p2s vpn "account".
 
 ## How to use
 - Before running the script you need to set two parameters - address and username:
-  - :global address \addresses with CIDR masks from which incoming traffic for this peer is allowed and to which outgoing traffic for this peer is directed\;
-  - :global username \user name used as comment and filename\;
+  - :global address \addresses with CIDR masks from which incoming traffic for this peer is allowed and to which outgoing traffic for this peer is directed\
+  - :global username \user name used as comment and filename\
 - /system/script/\script name\
 
 ### Example
-:global address "10.100.200.3/32";
-
-:global username "john.smith";
-
+:global address "10.100.200.3/32"
+:global username "john.smith"
 /system/script/wg
 
 After executing these commands a new user will be added to wireguard/peers and a corresponding file will appear in the Files, which can be imported into the client.
