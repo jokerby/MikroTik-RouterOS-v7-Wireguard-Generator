@@ -1,4 +1,4 @@
-# RouterOS-v7-Wireguard-Generator
+# RouterOS v7 Wireguard Generator
 Automate generation of wireguard config
 
 Simple script to auto adding new p2s vpn "account".
