@@ -1,9 +1,11 @@
-# RouterOS v7 Wireguard Generator
+# RouterOS v7 Wireguard Generator for Linux
 Automate generation of wireguard config from any Linux machine
 
 Simple script to auto adding new p2s vpn "account" in MT router, but directly from Linux machine. Without helps, usage examples, error checks etc.
 
 **Before the first run you need to edit the specific parameters inside script and install wireguard binaries (for example: apt install wireguard)!**
+
+_It is recommended to use an SSH key to avoid entering passwords multiple times on SSH connections_
 
 ## How to use
 This script must be run not on the router directly, but on any other Linux machine.
